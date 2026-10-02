@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production build output
+dist/
+build/
+
+# Environment and sensitive credential files
+.env
+.env*.local
+.env.production
+.env.staging
+
+# Local state & deduplication cache
+.lead_dedup_cache.json
+*.cache
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS metadata & temporary files
+.DS_Store
+Thumbs.db
+
+# Personal documents / Resumes
+*Resume.*
+
+
+# IDE & Editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
